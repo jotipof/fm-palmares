@@ -50,15 +50,25 @@ h2 {
     margin-right: 5px; /* Espaçamento à direita da imagem do clube */
 }
 
+.trophy-info {
+    display: flex;
+    flex-direction: column; /* Coloca os elementos em coluna */
+    align-items: center; /* Centraliza os elementos */
+    margin-top: 5px; /* Espaçamento acima da informação do troféu */
+    background-color: #e0e0e0; /* Cor de fundo para a "bola" */
+    border-radius: 50%; /* Faz a "bola" ficar redonda */
+    padding: 10px; /* Espaçamento interno da "bola" */
+}
+
 .fm-logo {
     width: 20px; /* Tamanho da imagem do logo do FM */
     height: auto;
-    margin-left: 5px; /* Espaçamento à esquerda do logo do FM */
+    margin-top: 5px; /* Espaçamento acima do logo do FM */
 }
 
 .count {
     font-weight: bold; /* Destaca o número de conquistas */
-    margin: 0 5px; /* Margem para o número de conquistas */
+    margin-bottom: 5px; /* Margem abaixo do número de conquistas */
 }
 
 .achievements {
