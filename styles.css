@@ -44,10 +44,27 @@ h2 {
 }
 
 .club-image {
-    width: 50px; /* Tamanho da imagem do clube */
+    width: 30px; /* Tamanho da imagem do clube */
     height: auto;
     border-radius: 50%; /* Faz a imagem do clube ficar redonda */
-    margin-top: 10px;
+    margin-right: 5px; /* Espaçamento à direita da imagem do clube */
+}
+
+.fm-logo {
+    width: 20px; /* Tamanho da imagem do logo do FM */
+    height: auto;
+    margin-left: 5px; /* Espaçamento à esquerda do logo do FM */
+}
+
+.count {
+    font-weight: bold; /* Destaca o número de conquistas */
+    margin: 0 5px; /* Margem para o número de conquistas */
+}
+
+.achievements {
+    display: flex; /* Exibe as conquistas em linha */
+    justify-content: center; /* Centraliza as conquistas */
+    margin-top: 10px; /* Espaçamento acima das conquistas */
 }
 
 .card h3 {
