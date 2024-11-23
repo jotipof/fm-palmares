@@ -43,32 +43,34 @@ h2 {
     border-radius: 5px;
 }
 
+.club-container {
+    position: relative; /* Permite o posicionamento absoluto dos elementos internos */
+}
+
 .club-image {
-    width: 30px; /* Tamanho da imagem do clube */
+    width: 60px; /* Tamanho da imagem do clube */
     height: auto;
     border-radius: 50%; /* Faz a imagem do clube ficar redonda */
-    margin-right: 5px; /* Espaçamento à direita da imagem do clube */
-}
-
-.trophy-info {
-    display: flex;
-    flex-direction: column; /* Coloca os elementos em coluna */
-    align-items: center; /* Centraliza os elementos */
-    margin-top: 5px; /* Espaçamento acima da informação do troféu */
-    background-color: #e0e0e0; /* Cor de fundo para a "bola" */
-    border-radius: 50%; /* Faz a "bola" ficar redonda */
-    padding: 10px; /* Espaçamento interno da "bola" */
-}
-
-.fm-logo {
-    width: 20px; /* Tamanho da imagem do logo do FM */
-    height: auto;
-    margin-top: 5px; /* Espaçamento acima do logo do FM */
 }
 
 .count {
+    position: absolute; /* Posiciona o número de conquistas */
+    top: 0; /* Alinha ao topo da imagem do clube */
+    right: 0; /* Alinha à direita da imagem do clube */
+    background-color: #e0e0e0; /* Cor de fundo para a "bola" */
+    border-radius: 50%; /* Faz a "bola" ficar redonda */
+    padding: 5px; /* Espaçamento interno da "bola" */
     font-weight: bold; /* Destaca o número de conquistas */
-    margin-bottom: 5px; /* Margem abaixo do número de conquistas */
+    font-size: 0.8em; /* Tamanho da fonte do número */
+}
+
+.fm-logo {
+    position: absolute; /* Posiciona o logo do FM */
+    bottom: 0; /* Alinha ao fundo da imagem do clube */
+    right: 0; /* Alinha à direita da imagem do clube */
+    width: 20px; /* Tamanho da imagem do logo do FM */
+    height: auto;
+    margin: 5px; /* Margem ao redor do logo do FM */
 }
 
 .achievements {
