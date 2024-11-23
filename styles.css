@@ -25,7 +25,7 @@ h2 {
 .card {
     background-color: white;
     border-radius: 10px; /* Arredondamento maior para um visual mais suave */
-    box-shadow: 0 4px  15px rgba(0, 0, 0, 0.1); /* Sombra mais suave */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Sombra mais suave */
     margin: 15px; /* Espaçamento maior entre os cartões */
     padding: 20px; /* Mais espaço interno */
     text-align: center; /* Centraliza o texto */
@@ -57,8 +57,9 @@ h2 {
 }
 
 .fm-logo {
-    width: 50px; /* Tamanho da imagem do logo do FM */
-    height: auto;
+    width: 50px; /* Tamanho fixo da imagem do logo do FM */
+    height: 50px; /* Tamanho fixo da imagem do logo do FM */
+    object-fit: contain; /* Mantém a proporção da imagem */
     margin-right: 10px; /* Espaçamento à direita do logo do FM */
 }
 
@@ -68,8 +69,9 @@ h2 {
 }
 
 .club-image {
-    width: 40px; /* Tamanho da imagem do clube */
-    height: auto;
+    width: 40px; /* Tamanho fixo da imagem do clube */
+    height: 40px; /* Tamanho fixo da imagem do clube */
+    object-fit: contain; /* Mantém a proporção da imagem */
     margin: 0 5px; /* Margem entre os logos dos clubes */
 }
 
