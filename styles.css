@@ -31,6 +31,7 @@ h2 {
     text-align: center; /* Centraliza o texto */
     width: 220px; /* Largura dos cartões */
     transition: transform 0.2s; /* Transição suave para o efeito hover */
+    margin-bottom: 20px;
 }
 
 .card:hover {
@@ -48,6 +49,7 @@ h2 {
     flex-direction: column; /* Alinha as conquistas em coluna */
     align-items: center; /* Centraliza as conquistas */
     margin-top: 10px; /* Espaçamento acima das conquistas */
+    margin-bottom: 15px;
 }
 
 .fm-achievement {
@@ -66,11 +68,12 @@ h2 {
 .club-logos {
     display: flex; /* Exibe os logos dos clubes em linha */
     flex-wrap: wrap; /* Permite que os logos quebrem para a linha seguinte se necessário */
+    gap: 10px; /* Espaçamento entre as imagens dos clubes */
 }
 
 .club-image {
-    width: 40px; /* Tamanho fixo da imagem do clube */
-    height: 40px; /* Tamanho fixo da imagem do clube */
+    width: 50px; /* Tamanho fixo da imagem do clube */
+    height: auto; /* Tamanho fixo da imagem do clube */
     object-fit: contain; /* Mantém a proporção da imagem */
     margin: 0 5px; /* Margem entre os logos dos clubes */
 }
