@@ -56,6 +56,7 @@ h2 {
     display: flex; /* Exibe a imagem do FM e os logos dos clubes em linha */
     align-items: center; /* Alinha verticalmente os itens */
     margin: 10px 0; /* Espaçamento entre as conquistas */
+    margin-bottom: 15px;
 }
 
 .fm-logo {
@@ -69,6 +70,7 @@ h2 {
     display: flex; /* Exibe os logos dos clubes em linha */
     flex-wrap: wrap; /* Permite que os logos quebrem para a linha seguinte se necessário */
     gap: 10px; /* Espaçamento entre as imagens dos clubes */
+    margin-left: auto; /* Empurra os logos dos clubes para a direita */
 }
 
 .club-image {
